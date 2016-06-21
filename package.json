@@ -1,0 +1,29 @@
+{
+  "name": "perfbudget_gui",
+  "version": "0.0.1",
+  "description": "GUI for perfbudget plugin",
+  "main": "app.js",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "dev": "webpack-dev-server",
+    "start": "webpack --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpgmartin/perfbudget_gui.git"
+  },
+  "author": "Tom Martin <tom@tpgmartin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpgmartin/perfbudget_gui/issues"
+  },
+  "homepage": "https://github.com/tpgmartin/perfbudget_gui#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
